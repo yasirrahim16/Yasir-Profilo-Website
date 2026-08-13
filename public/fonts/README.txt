@@ -1,0 +1,1 @@
+Font stack is intentionally web-safe plus system fallbacks so the ZIP has no binary font licensing burden. The UI requests Inter and Space Grotesk from Google Fonts when a network connection is available, and gracefully falls back to system sans-serif fonts when it is not.

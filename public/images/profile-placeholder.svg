@@ -1,0 +1,11 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="1400" rx="70" fill="#060912"/>
+<circle cx="310" cy="280" r="350" fill="url(#a)" fill-opacity=".5"/>
+<circle cx="970" cy="1040" r="420" fill="url(#b)" fill-opacity=".45"/>
+<path d="M180 1200C310 1010 450 920 602 920C760 920 895 1020 1020 1200" stroke="url(#c)" stroke-width="90" stroke-linecap="round" opacity=".55"/>
+<circle cx="600" cy="610" r="250" fill="#111827" stroke="rgba(255,255,255,.15)" stroke-width="8"/>
+<circle cx="520" cy="580" r="22" fill="#5CE1FF"/><circle cx="680" cy="580" r="22" fill="#9775FF"/>
+<path d="M505 715C565 770 640 770 700 715" stroke="#DDE6FF" stroke-opacity=".6" stroke-width="16" stroke-linecap="round"/>
+<text x="600" y="1320" text-anchor="middle" fill="#FFFFFF" fill-opacity=".55" font-family="Arial, sans-serif" font-size="44" letter-spacing="12">YOUR IMAGE</text>
+<defs><radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(310 280) rotate(90) scale(350)"><stop stop-color="#5CE1FF"/><stop offset="1" stop-color="#5CE1FF" stop-opacity="0"/></radialGradient><radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 1040) rotate(90) scale(420)"><stop stop-color="#9775FF"/><stop offset="1" stop-color="#9775FF" stop-opacity="0"/></radialGradient><linearGradient id="c" x1="180" y1="1200" x2="1020" y2="1200" gradientUnits="userSpaceOnUse"><stop stop-color="#5CE1FF"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".25"/><stop offset="1" stop-color="#Caff6B"/></linearGradient></defs>
+</svg>

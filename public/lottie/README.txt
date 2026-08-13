@@ -1,0 +1,1 @@
+The portfolio uses motion libraries for UI animation and does not require a remote Lottie JSON asset. The lottie-react dependency is included so a real Lottie animation can be dropped into a component without changing the build setup.

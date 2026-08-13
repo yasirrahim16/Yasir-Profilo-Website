@@ -1,0 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
+export default function SectionHeading({ index, eyebrow, title, body }: { index: string; eyebrow: string; title: string; body?: string }) {
+  return <div className="grid gap-5 lg:grid-cols-[180px_1fr] items-start"><motion.div initial={{ opacity:0,x:-20 }} whileInView={{ opacity:1,x:0 }} viewport={{ once:true, amount:.5 }} className="flex items-center gap-3 text-[10px] uppercase tracking-[.3em] text-white/40"><span className="text-cyan">{index}</span><span className="h-px w-10 bg-white/10"/>{eyebrow}</motion.div><div><motion.h2 initial={{ opacity:0,y:24,filter:'blur(10px)' }} whileInView={{ opacity:1,y:0,filter:'blur(0px)' }} viewport={{ once:true, amount:.4 }} transition={{ duration:.8, ease:[.16,1,.3,1] }} className="font-display text-4xl font-medium tracking-[-.04em] text-balance sm:text-5xl lg:text-7xl">{title}</motion.h2>{body && <motion.p initial={{ opacity:0,y:18 }} whileInView={{ opacity:1,y:0 }} viewport={{ once:true, amount:.4 }} transition={{ duration:.7, delay:.1 }} className="mt-5 max-w-2xl text-base leading-7 text-white/55 sm:text-lg">{body}</motion.p>}</div></div>
+}
