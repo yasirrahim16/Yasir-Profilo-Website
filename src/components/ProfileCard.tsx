@@ -34,8 +34,8 @@ export default function ProfileCard() {
       <div className="glass relative h-full overflow-hidden rounded-[2.2rem] p-2">
         <div className="relative h-full overflow-hidden rounded-[1.8rem] bg-black/50">
           <Image
-            src="/images/profile-placeholder.svg"
-            alt="Yasir Rahim profile placeholder"
+            src="/images/yasir.jpg"
+            alt="Yasir Rahim"
             fill
             priority
             className="object-cover opacity-85"
